@@ -1,7 +1,7 @@
 ################################################################################
 #### Excercise II - Assignment I, Adv. Macroeconomics II  ######################
 #### © Fynn Lohre (@VARFynn on Github);                   ######################
-####   Maximilian Heinze (@maxmheinze on Github);         ######################
+####   Max Heinze (@maxmheinze on Github);                ######################
 ####   Gustav Pirich (@gustavpirich on Github);           ######################      
 ################################################################################
 
@@ -9,8 +9,8 @@
 ################################################################################
 #### 1. Pre ####################################################################
 ################################################################################
-mrw                  <- read.csv("C:/Users/Fynn/Downloads/mrw.csv")
-Countries.Continents <- read.csv("C:/Users/Fynn/Downloads/Countries-Continents.csv")
+mrw                  <- read.csv("./mrw.csv")
+Countries.Continents <- read.csv("./Countries-Continents.csv")
 pacman::p_load("tidyverse", "stargazer")
 
 # Creating Data Sata for with Continents
